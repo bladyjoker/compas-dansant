@@ -19,4 +19,4 @@ $ yarn serve
 
 ## Fun parts
 
-You can see the application itself in the [index.html](index.html) file. The fun part was using basic trigonometry to connect the Arcs and turn them into *connectable* things that Purescript and Haskell folks call **Monoid** and **Semigroup**.
+You can see the application itself in the [index.html](https://htmlpreview.github.io/?https://github.com/bladyjoker/compas-dansant/blob/main/index.html) file. The fun part was using basic trigonometry to connect the Arcs and turn them into *connectable* things that Purescript and Haskell folks call **Monoid** and **Semigroup**.
