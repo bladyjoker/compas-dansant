@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "clean": "rm -rf node_modules output .spago dist/* *.lock",
+        "build": "rm -rf dist/* && spago bundle-app --main Main --to dist/index.js && sed -f insert_script.sed assets/index.html > dist/index.html",
+        "start": "browse dist/index.html"
+    },
+    "devDependencies": {
+        "spago": "^0.17.0"
+    }
+}
